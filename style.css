@@ -1,0 +1,161 @@
+body{
+
+    font-family: "Montserrat", sans-serif;
+    padding: 2rem;
+
+}
+
+
+    .form-row{
+        margin-bottom: 1rem;
+    }
+    label{
+        display: block;
+
+    }
+    textarea, input{
+
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid grey;
+
+
+    }
+
+
+    form{
+        width: 100%;
+    }
+
+
+    button{
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        border: 1px solid grey;
+        background-color: burlywood;
+        font-size: 1.2rem;
+        
+        }
+
+
+
+
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: burlywood;
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+
+}
+
+    header .title{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+    }    
+    header h2{
+        margin: 0;
+    }
+
+     main h1 span,header .title span{
+           width: 50px;
+           height: 50px;
+           background-color: cadetblue; 
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+     header nav a{
+        font-weight: 600;
+        text-decoration: none;
+        color:black;
+
+     }   
+
+     header nav a:hover{
+        color: bisque;
+     }
+
+     main{
+        padding: 5rem 20%;
+
+     }
+
+     main .home{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+     }
+
+     main .profile img{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        border: 1rem solid burlywood;
+}
+
+    main .button a{
+        background-color: burlywood;
+        padding: 1rem 2rem;
+        display: inline-block;
+        border-radius: 5rem;
+        text-decoration: none;
+        font-weight: 500;
+        box-shadow: 3px 3px 5px black ;
+        margin-right: 1rem ;
+    }
+
+    main .button a:hover{
+        background-color: cadetblue;
+
+    }
+
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        flex-wrap: wrap;
+
+
+    }
+
+    main h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+
+    }
+
+
+    main .card{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        border: 1px solid burlywood;
+        border-radius: 2rem;
+        padding: 2rem;
+        box-shadow: 3px 3px 7px burlywood;
+        margin-bottom: 2rem;
+        
+
+    }
+
+        main section{
+            margin-bottom: 4rem;
+        }
+
+
+
+
